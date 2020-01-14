@@ -1,0 +1,71 @@
+{'id': 'IMPORTANT', 'name': 'IMPORTANT', 'messageListVisibility': 'hide', 'labelListVisibility': 'labelHide', 'type': 'system'}
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Tue, 14 Jan 2020 15:32:15 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Sun, 5 Jan 2020 12:20:11 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Google APIs Explorer a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Sun, 5 Jan 2020 00:37:48 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Sat, 4 Jan 2020 01:43:13 +0000 (GMT)
+suject : %s Aidez-nous à vous protéger : conseils de sécurité de Google
+msg : %s Supprimer les accès risqués à vos données robert.rich136@gmail.com Certaines applications et certains services que vous avez autorisés à accéder à votre compte Google n&#39;ont pas été validés par
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Tue, 31 Dec 2019 16:11:32 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Google APIs Explorer a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Tue, 31 Dec 2019 15:43:05 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Wed, 18 Dec 2019 08:55:29 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Tue, 14 Jan 2020 15:32:15 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Sun, 5 Jan 2020 12:20:11 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Google APIs Explorer a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Sun, 5 Jan 2020 00:37:48 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Sat, 4 Jan 2020 01:43:13 +0000 (GMT)
+suject : %s Aidez-nous à vous protéger : conseils de sécurité de Google
+msg : %s Supprimer les accès risqués à vos données robert.rich136@gmail.com Certaines applications et certains services que vous avez autorisés à accéder à votre compte Google n&#39;ont pas été validés par
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Tue, 31 Dec 2019 16:11:32 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Google APIs Explorer a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Tue, 31 Dec 2019 15:43:05 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de
+from : %s Google <no-reply@accounts.google.com>
+to : %s robert.rich136@gmail.com
+date : %s Wed, 18 Dec 2019 08:55:29 +0000 (GMT)
+suject : %s Alerte de sécurité
+msg : %s Quickstart a désormais accès à votre compte Google robert.rich136@gmail.com Si vous n&#39;êtes pas à l&#39;origine de cette autorisation, nous vous conseillons de vérifier cette activité et de

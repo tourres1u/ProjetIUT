@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Enregistrez les comptes du bot</title>
+    <link href="//getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/css/signup.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+
+        <form class="form-signin" action="" method="post">
+            <h1> Compte Twitter <img src="../static/logos/logo_twitter.png"
+                                     alt="Logo twitter"
+                                     width="50"
+                                     height="50"></h1>
+
+            <label for="inputEmailTwitter" class="sr-only">Email address</label>
+            <input type="email" name="input_email_twitter" id="inputEmailTwitter" class="form-control"
+                   placeholder="Email address"
+                   value="{{request.form.input_email_twitter}}" required>
+            <label for="inputPasswordTwitter" class="sr-only">Password</label>
+            <input type="password" name="input_pass_twitter" id="inputPasswordTwitter" class="form-control"
+                   placeholder="Password" value="{{request.form.input_pass_twitter}}" required>
+
+            <br>
+            <br>
+
+            <h1> Compte Facebook <img src="../static/logos/logo_facebook.png"
+                                      alt="Logo Facebook"
+                                      width="50"
+                                      height="50"></h1>
+            <label for="inputEmailFacebook" class="sr-only">Email address</label>
+            <input type="email" name="input_email_facebook" id="inputEmailFacebook" class="form-control"
+                   placeholder="Email address"
+                   value="{{request.form.input_email_facebook}}" required>
+            <label for="inputPasswordFacebook" class="sr-only">Password</label>
+            <input type="password" name="input_pass_facebook" id="inputPasswordFacebook" class="form-control"
+                   placeholder="Password" value="{{request.form.input_pass_facebook}}" required>
+
+            <h1> Compte Gmail <img src="../static/logos/logo_gmail.png"
+                                   alt="Logo Gmail"
+                                   width="50"
+                                   height="50"></h1>
+            <label for="inputEmailGmail" class="sr-only">Email address</label>
+            <input type="email" name="input_email_gmail" id="inputEmailGmail" class="form-control"
+                   placeholder="Email address" value="{{request.form.input_email_gmail}}" required>
+            <label for="inputPasswordGmail" class="sr-only">Password</label>
+            <input type="password" name="input_pass_gmail" id="inputPasswordGmail" class="form-control"
+                   placeholder="Password" value="{{request.form.input_pass_gmail}}" required>
+            <br>
+            <br>
+
+            <button type="submit">Enregistrement</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

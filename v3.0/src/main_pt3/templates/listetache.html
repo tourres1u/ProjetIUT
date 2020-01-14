@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Lister les actions</title>
+    <link href="../static/css/task.css" rel="stylesheet">
+</head>
+<body>
+<form class="form-horizontal" method="post">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Enregistrer une action dans la base de données</legend>
+
+        <!-- Multiple Radios -->
+        <input type="radio" name="options" id="option1" value="Twitter" required> Twitter </input><br>
+        <input type="radio" name="options" id="option2" value="Facebook"> Facebook </input><br>
+        <input type="radio" name="options" id="option4" value="Gmail"> Gmail </input><br>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Texte à publier</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="Publication"
+                       class="form-control input-md" value="{{request.form.textinput}}" required="">
+
+            </div>
+        </div>
+        <!--Date input-->
+        <h4> À faire le : </h4>
+        <input type="date" id="start" name="date"
+            value="2020-01-15"
+            min="2020-01-01" max="2021-12-31">
+
+        <br>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="submit"></label>
+            <div class="col-md-4">
+                <button id="submit" name="submit" type="submit" class="btn btn-primary">Enregistrer</button>
+            </div>
+        </div>
+
+    </fieldset>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    <h3>{{ message }}</h3>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <h2>Les tâches dans la base de données</h2>
+   <table>
+        <tr>
+            <th>Plateforme</th>
+            <th>Publication</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+        {% for item in data %}
+        <tr>
+            <td>{{item['account']}}</td>
+            <td>{{item['publication']}}</td>
+            <td>{{item['date']}}</td>
+            <td>{{item['status']}}</td>
+        </tr>
+       {% endfor %}
+    </table>
+
+    <p><a href="{{ url_for('hello_user') }}">Interface pour lancer le bot</a></p>
+</form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="../static/css/stylo.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="content-wrapper">
+  <h1>Bienvenue dans l'application !</h1>
+  
+  <a class="action-link blip-link black" href="{{ url_for('showSignUp') }}">
+    <div class="link-content">Enregistrement des comptes</div>
+    <div class="blip"></div>
+    <div class="blip-click"></div>
+  </a>
+  
+  <a class="action-link blip-link red" href="{{ url_for('lister_tache') }}">
+    <div class="link-content">Listing des tâches</div>
+    <div class="blip"></div>
+    <div class="blip-click"></div>
+  </a>
+
+  <a class="action-link blip-link red" href="{{ url_for('recuperer_gmail') }}">
+    <div class="link-content">Mes mails google</div>
+    <div class="blip"></div>
+    <div class="blip-click"></div>
+  </a>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../static/js/scripto.js"></script>
+
+</body>
+</html>

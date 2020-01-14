@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Interface bot</title>
+    <link href="../static/css/hello_user.css" rel="stylesheet">
+</head>
+<body>
+<h1> Bienvenue dans l'interface de pilotage du bot! Vous êtes utilisateur</h1>
+<p> Voici les comptes que vous avez renseigné</p>
+
+<h2>Paramètres du bot : </h2>
+<form class="form-horizontal" method="post">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Interface de parametrage</legend>
+
+        <!-- Multiple Checkboxes (inline) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="accounts">Comptes à gerer</label>
+            <div class="col-md-4">
+                <label class="checkbox-inline" for="accounts-0">
+                    <input type="checkbox" name="accounts" id="accounts-0" value="Twitter"> Twitter
+                </label>
+                <label class="checkbox-inline" for="accounts-2">
+                    <input type="checkbox" name="accounts" id="accounts-2" value="Facebook"> Facebook
+                </label>
+                <label class="checkbox-inline" for="accounts-3">
+                    <input type="checkbox" name="accounts" id="accounts-3" value="Gmail"> Gmail
+                </label>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="retrieve">Expiration du bot en minutes</label>
+            <p><em>Durant cet intervalle de temps le bot va aller exécuter les taches dans la base de données et
+                récuperer les infos </em></p>
+            <div class="col-md-4">
+                <input id="retrieve" name="retrieve" type="number" min="1" max="10" placeholder="Durée"
+                       class="form-control input-md" required="">
+            </div>
+        </div>
+
+        <!-- Button (Double) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="statea"></label>
+            <div class="col-md-8">
+                <button class="blue" id="statea" type="submit" name="submit_button" class="btn btn-success" value="go">Lancer
+                </button>
+                <button class="red" id="stateb" type="submit" name="submit_button" class="btn btn-danger" value="stop">Terminer
+                </button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+</body>
+
+<fieldset>
+    <h2>Log des actions :</h2>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class=flashes>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    {% block body %}{% endblock %}
+</fieldset>
+
+<fieldset>
+    <h2> Dernières notifications </h2>
+    <p>{{notifications}}</p>
+
+</fieldset>
+<p><a class="link1" href="{{ url_for('showSignUp') }}">Lien pour rentrer les comptes</a></p>
+<p><a class="link2" href="{{ url_for('lister_tache') }}">Listing des tâches</a></p>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+  font-family: Raleway;
+  font-size: 18px;
+}
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+input[type=checkbox] {
+    -border-radius: 4px;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+input[type="checkbox"]:checked {
+  background: black;
+  margin:0px;
+  position: relative;
+  &:before {
+    font-family: FontAwesome;
+    content: '\f00c';
+    display: block;
+    color: grey;
+    font-size: 13px;
+    position: absolute;
+  }
+}
+button.red {
+    background: -webkit-linear-gradient(top, #DD4B39, #D14836);
+    background: -moz-linear-gradient(top, #DD4B39, #D14836);
+    background: -ms-linear-gradient(top, #DD4B39, #D14836);
+    border: 1px solid #DD4B39;
+    color: white;
+    text-shadow: 0 1px 0 #C04131;
+}
+
+button.red:hover {
+     background: -webkit-linear-gradient(top, #DD4B39, #C53727);
+     background: -moz-linear-gradient(top, #DD4B39, #C53727);
+     background: -ms-linear-gradient(top, #DD4B39, #C53727);
+     border: 1px solid #AF301F;
+}
+
+button.red:active {
+     box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+    background: -webkit-linear-gradient(top, #D74736, #AD2719);
+    background: -moz-linear-gradient(top, #D74736, #AD2719);
+    background: -ms-linear-gradient(top, #D74736, #AD2719);
+}
+
+button.blue {
+    color: white;
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB;
+}
+
+button.blue:hover {
+    border: 1px #2F5BB7 solid;
+    box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;
+    background: #3F83F1;
+}
+
+button.blue:active {
+    box-shadow: inset 0 2px 5px #2370FE;
+}
+
+a.link1:link, a.link1:visited {
+  background-color: #ffff00;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.link1:hover, a.link1:active {
+  background-color: yellow;
+}
+
+a.link2:link, a.link2:visited {
+  background-color: #ffa500;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.link2:hover, a.link2:active {
+  background-color: orange;
+}

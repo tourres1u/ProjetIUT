@@ -7,6 +7,14 @@ Benoît T<br/>
 Rova R<br/>
 Sebastien B
 
+L’objectif de ce projet est de construire une application, plus spécifiquement un bot.<br/>
+Celui-ci surfera indépendamment sur Internet, au sein des réseaux sociaux tels qu'Instagram, Facebook, Twitter et d’autres.<br/>
+Sa première mission est de faciliter la vie de l'utilisateur. Pour sa seconde mission, le bot jouera le rôle d'un compagnon, donc l'utilisateur gagnera du temps.<br/>
+Concrètement, le bot va :
+- Publier automatiquement à une date spécifiée et d'une manière spécifiée.<br/>
+- Rechercher des informations et les reprendre dans un tableau de bord<br/>
+- Interagir (réponses automatiques, likes, abonnements…)<br/>
+
 Pour tester, c'est simple:
 
     -Aller dans PT3-Bot-Informatique/v3.0/src/main_pt3/ 
